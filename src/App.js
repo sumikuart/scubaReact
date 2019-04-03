@@ -1,27 +1,32 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter, Route, Switch } from 'react-router-dom'
+
+
+//Component  
+import NavBar from "./component/nav"
+import InfoSection from  './component/info.js'
+import Shop from  './component/shop.js'
+import Eventyr from './component/eventyr'
+import Kurser from './component/kurser'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <div id="wrapper">
+          <NavBar /> 
+          <InfoSection /> 
+         
+          <main>
+            <Shop />
+            <Eventyr />
+            <Kurser />
+          </main>
+
+          <footer></footer>
+        </div>
       </div>
-    );
+    )
   }
 }
 

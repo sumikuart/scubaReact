@@ -1,0 +1,82 @@
+#wrapper main #kurser {
+
+    grid-column: 1/-1;
+    grid-row: 3/-1;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px 5fr 1fr;
+
+}
+
+#wrapper main #kurser #KurserHeadline {
+
+
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    display: flex;
+}
+
+#wrapper main #kurser #KurserHeadline p {
+    background-color: black;
+    color: white;
+    width: 50%;
+    font-weight: bolder;
+    font-size: 24px;
+    padding: 2px;
+    padding-left: 50px;
+}
+
+
+#wrapper main #kurser #KurserHeadline #backlogkurser {
+
+    width: 50%;
+    height: 100%;
+    background-color: #cccccc;
+
+}
+
+
+#wrapper main #kurser #kursercontent {
+
+    margin-top: 30px;
+    grid-column: 1/-1;
+    grid-row: 2/3;
+
+    -webkit-box-shadow: 0px 0px 42px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 42px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 42px 0px rgba(0, 0, 0, 0.75);
+
+    display: flex;
+
+
+}
+
+#wrapper main #kurser #kursercontent #kusertekst {
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 50%;
+
+}
+
+#wrapper main #kurser #kursercontent #kusertekst h2 {
+    margin-bottom: 20px;
+}
+
+#wrapper main #kurser #kursercontent #kusertekst p {
+    margin-bottom: 20px;
+}
+
+#wrapper main #kurser #kursercontent #kurserbilled {
+
+    margin-top: 75px;
+    margin-left: 250px;
+}
+
+#wrapper main #kurser #kurserend {
+    grid-column: 1/-1;
+    grid-row: 3/-1;
+    text-align: center;
+    font-size: 34px;
+    margin-top: 30px;
+}

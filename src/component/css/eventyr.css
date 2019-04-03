@@ -1,0 +1,116 @@
+#wrapper main #eventyr {
+
+    grid-column: 1/-1;
+    grid-row: 2/3;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px 5fr 1fr;
+
+}
+
+#wrapper main #eventyr #eventyrheadling {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    display: flex;
+}
+
+#wrapper main #eventyr #eventyrheadling p {
+    background-color: black;
+    color: white;
+    width: 50%;
+    font-weight: bolder;
+    font-size: 24px;
+    padding: 2px;
+    padding-left: 50px;
+}
+
+
+#wrapper main #eventyr #eventyrheadling #backlogeventyr {
+
+    width: 50%;
+    height: 100%;
+    background-color: #cccccc;
+
+}
+
+#wrapper main #eventyr #eventyrcontent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+
+    grid-column: 1/-1;
+    grid-row: 2/3;
+}
+
+
+
+#wrapper main #eventyr #eventyrcontent .eventyrbox {
+    width: 45%;
+    height: 100%;
+    -webkit-box-shadow: 0px 0px 42px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 42px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 42px 0px rgba(0, 0, 0, 0.75);
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+
+
+
+}
+
+#wrapper main #eventyr #eventyrcontent .eventyrbox .eventyrpadding {
+    width: 90%;
+    height: 80%;
+    overflow: hidden;
+    position: relative;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    grid-column: 1/-1;
+    grid-row: 1/2;
+
+}
+
+#wrapper main #eventyr #eventyrcontent .eventyrbox img {
+
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: -100px;
+    z-index: 0;
+}
+
+
+#wrapper main #eventyr #eventyrcontent .eventyrbox .buttomeventyr {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    grid-column: 1/-1;
+    grid-row: 2/-1;
+
+    color: white;
+}
+
+#wrapper main #eventyr #eventyrcontent .eventyrbox .buttomeventyr h2 {
+    padding-left: 50px;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+
+#wrapper main #eventyr #eventyrcontent .eventyrbox .buttomeventyr p {
+    padding-left: 50px;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+#wrapper main #eventyr #eventyrend {
+    grid-column: 1/-1;
+    grid-row: 3/-1;
+    text-align: center;
+    font-size: 34px;
+    margin-top: 30px;
+}

@@ -1,0 +1,90 @@
+
+#wrapper main #Shop {
+
+    grid-column: 1/-1;
+    grid-row: 1/2;
+
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px 5fr 1fr;
+    grid-gap: 30px;
+    margin-top: 30px;
+
+}
+
+#wrapper main #Shop #shopheadline {
+
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    display: flex;
+
+}
+
+
+#wrapper main #Shop #shopheadline p {
+
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 50%;
+    font-weight: bolder;
+    font-size: 24px;
+    padding: 2px;
+    padding-left: 50px;
+}
+
+#wrapper main #Shop #backlogshop {
+    height: 100%;
+    width: 50%;
+    background-color: #cccccc;
+
+}
+
+
+#wrapper main #Shop #shopcatalog {
+
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#wrapper main #Shop #shopcatalog .shopbox {
+
+    width: 20%;
+    -webkit-box-shadow: 0px 0px 42px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 42px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 42px 0px rgba(0, 0, 0, 0.75);
+}
+
+#wrapper main #Shop #shopcatalog .shopbox img {
+
+    width: 80%;
+    margin: 30px;
+
+}
+
+#wrapper main #Shop #shopcatalog .shopbox figcaption {
+    color: #a9a5a2;
+    text-align: center;
+    font-size: 26px;
+}
+
+#wrapper main #Shop #shopcatalog .shopbox figcaption span {
+    color: black;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+
+#wrapper main #Shop #shopend {
+
+    grid-column: 1/-1;
+    grid-row: 3/-1;
+    text-align: center;
+    font-size: 34px;
+    margin-top: 20px;
+
+}

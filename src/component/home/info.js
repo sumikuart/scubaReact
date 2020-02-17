@@ -3,7 +3,7 @@ import './css/info.css'
 
 
 // IMG
-import backdropinfoimg from '../assets/scuba2.jpg'
+import backdropinfoimg from '../../assets/scuba2.jpg'
 
 
 const InfoSection = () => {

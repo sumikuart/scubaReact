@@ -5,7 +5,7 @@
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 30px 5fr 1fr;
+    grid-template-rows: 40px 5fr 1fr;
 
 }
 
@@ -55,7 +55,7 @@
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 350px 150px;
 
 
 
@@ -103,6 +103,7 @@
 
 #wrapper main #eventyr #eventyrcontent .eventyrbox .buttomeventyr p {
     padding-left: 50px;
+    width:80%;
     font-size: 14px;
     padding-top: 5px;
 }

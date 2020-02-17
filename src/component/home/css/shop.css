@@ -7,9 +7,11 @@
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 30px 5fr 1fr;
+    grid-template-rows: 40px 5fr 1fr;
     grid-gap: 30px;
     margin-top: 30px;
+
+    padding: 50px 100px 50px 100px;
 
 }
 
@@ -70,6 +72,7 @@
     color: #a9a5a2;
     text-align: center;
     font-size: 26px;
+    padding-bottom: 20px;
 }
 
 #wrapper main #Shop #shopcatalog .shopbox figcaption span {

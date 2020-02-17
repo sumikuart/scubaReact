@@ -1,9 +1,9 @@
 import React from 'react';
 import './css/kurser.css'
-
+import { NavLink} from 'react-router-dom';
 
 // IMG
-import padi from '../assets/padi.jpg'
+import padi from '../../assets/padi.jpg'
 
 const Kurser = () => {
 
@@ -35,7 +35,7 @@ return(
                 </div>
 
                 <div id="kurserend">
-                    <p>SE ALLE KURSER OG CERFIKATER HER!</p>
+                    <NavLink to="/Kurser">SE ALLE KURSER OG CERFIKATER HER!</NavLink>
                 </div>
 
             </section>
